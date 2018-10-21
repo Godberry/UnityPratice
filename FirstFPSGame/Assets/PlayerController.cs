@@ -16,15 +16,22 @@ public class PlayerController : MonoBehaviour {
 
     public JumpSensor JumpSensor;
     public float fJumpSpeed;
+    public GunManager gunManager;
 
 	// Use this for initialization
 	void Start () {
         AnimatorController = this.GetComponent<Animator>();
+        Cursor.visible = false;
 	}
 
 
 	// Update is called once per frame
 	void Update () {
+
+        if (Input.GetMouseButton (0))
+        {
+            gunManager.TryToTriggerGun();
+        }
 
         /// 決定鍵盤Input的結果
         Vector3 moveDirection = Vector3.zero;

@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BulletScript.cs" />
      <Compile Include="Assets\Elementals\Demo\Scripts\GE_Elementals_Demo.cs" />
      <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
      <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
@@ -66,7 +67,9 @@
      <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
      <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
      <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+     <Compile Include="Assets\GunManager.cs" />
      <Compile Include="Assets\JumpSensor.cs" />
+     <Compile Include="Assets\MonsterScript.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\WarZone\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
      <Compile Include="Assets\WarZone\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
